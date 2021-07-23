@@ -24,6 +24,8 @@
 		F162E45926AAD92800A5B513 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162E45826AAD92800A5B513 /* HomeViewController.swift */; };
 		F162E45B26AAD9F400A5B513 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162E45A26AAD9F400A5B513 /* MineViewController.swift */; };
 		F162E45D26AADA2E00A5B513 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162E45C26AADA2E00A5B513 /* BaseCollectionViewController.swift */; };
+		F162E45F26AAF27B00A5B513 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162E45E26AAF27B00A5B513 /* BaseTableViewCell.swift */; };
+		F162E46126AAF28E00A5B513 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162E46026AAF28E00A5B513 /* BaseCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		F162E45826AAD92800A5B513 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F162E45A26AAD9F400A5B513 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		F162E45C26AADA2E00A5B513 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		F162E45E26AAF27B00A5B513 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		F162E46026AAF28E00A5B513 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +206,9 @@
 			children = (
 				F162E44726AACAF800A5B513 /* BaseViewController.swift */,
 				F162E45626AAD87D00A5B513 /* BaseTableViewController.swift */,
+				F162E45E26AAF27B00A5B513 /* BaseTableViewCell.swift */,
 				F162E45C26AADA2E00A5B513 /* BaseCollectionViewController.swift */,
+				F162E46026AAF28E00A5B513 /* BaseCollectionViewCell.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -410,12 +416,14 @@
 				F162E44F26AAD1A200A5B513 /* AppInitializeSetting.swift in Sources */,
 				F162E45726AAD87D00A5B513 /* BaseTableViewController.swift in Sources */,
 				F162E41426AABC7400A5B513 /* ViewController.swift in Sources */,
+				F162E45F26AAF27B00A5B513 /* BaseTableViewCell.swift in Sources */,
 				F162E41026AABC7400A5B513 /* AppDelegate.swift in Sources */,
 				F162E45926AAD92800A5B513 /* HomeViewController.swift in Sources */,
 				F162E44D26AAD07B00A5B513 /* BaseMacro.swift in Sources */,
 				F162E44426AAC69F00A5B513 /* RootViewController.swift in Sources */,
 				F162E45D26AADA2E00A5B513 /* BaseCollectionViewController.swift in Sources */,
 				F162E44226AAC67E00A5B513 /* RootNavigationController.swift in Sources */,
+				F162E46126AAF28E00A5B513 /* BaseCollectionViewCell.swift in Sources */,
 				F162E45B26AAD9F400A5B513 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
